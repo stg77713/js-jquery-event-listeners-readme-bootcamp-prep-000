@@ -14,7 +14,7 @@ function pressIt(){
   return $('input').on('keydown',
   function(key){
     if(key === 'G'){
-      return;
+      alert('G was pressed')
     }
   })
 }
